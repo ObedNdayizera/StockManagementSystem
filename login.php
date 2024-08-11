@@ -39,7 +39,7 @@
 		</div>
 		<h2>Member Login</h2>
 		<?php echo "<small style='color: red; margin-left: -7.3rem;'>".$error ."</small>"?? null?>
-		<input type="text" name="username" placeholder="Name ">
+		<input type="text" name="username" placeholder="Name" value="<?=$username?>">
 		<input type="password" name="password" placeholder="Password">
 		<input type="submit" name="signup">
 		<small style="color: #777">forget password? Click to reset</small>

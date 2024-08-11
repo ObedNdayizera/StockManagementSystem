@@ -12,7 +12,7 @@
 		$position = htmlspecialchars($_POST['position']);
 
 		//adding product from product table
-		$sql_insert = "INSERT INTO `users`(`user_name`, `user_password`, `user_position`) VALUES ('$username','$position','1234')";
+		$sql_insert = "INSERT INTO `users`(`user_name`, `user_password`, `user_position`) VALUES ('$username','1234','$position')";
 
 		if(mysqli_query($conn, $sql_insert)){
 			$user_inserted = "User inserted";
