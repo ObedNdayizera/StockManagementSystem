@@ -40,7 +40,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/menu.php" ?>
 <div class="section">
-	<h2 style="color: lightgreen;">Add Product</h2>
+	<h2 style="color: #779CAB;">Add Product</h2>
 	<form class="form" method="POST">
 		<div>
 			<label for="productname">Product Name:</label>
@@ -63,9 +63,9 @@
 			<input type="submit" name="submit" value="Add Product">
 		</div>
 	</form>
-	<p style="color: lightgreen;"><?=$product_inserted ?? null ?></p>
+	<p style="color: #779CAB;"><?=$product_inserted ?? null ?></p>
 	<table>
-		<tr style="background: lightgreen;">
+		<tr style="background: #779CAB;">
 			<th>#NO</th>
 			<th>PRODUCT</th>
 			<th>CATEGORY</th>

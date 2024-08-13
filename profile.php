@@ -34,8 +34,8 @@
     form div button{
         padding: 8px;
         cursor: pointer;
-        background-color: lightgreen;
-        border: 1px solid lightgreen;
+        background-color: #779CAB;
+        border: 1px solid #779CAB;
         border-radius: 5px;
     }
 
@@ -48,7 +48,7 @@
     }
 </style>
 <div class="section">
-	<h2 style="color: lightgreen;">Account Settings</h2>
+	<h2 style="color: #779CAB;">Account Settings</h2>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
         <div>
             <small><strong>Your Name:</strong></small><br>

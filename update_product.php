@@ -43,7 +43,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/menu.php" ?>
 <div class="section">
-	<h2 style="color: lightgreen;">Add Product</h2>
+	<h2 style="color: #779CAB;">Add Product</h2>
 	<form class="form" method="POST">
 		<div>
 			<label for="productname">Product Name:</label>

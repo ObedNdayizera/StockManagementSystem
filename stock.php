@@ -89,7 +89,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/menu.php" ?>
 <div class="section">
-	<h2 style="color: lightgreen;">Stock In</h2>
+	<h2 style="color: #779CAB;">Stock In</h2>
 	<form class="form" method="POST">
 		<div>
 			<label for="productname">Product Name:</label>
@@ -110,7 +110,7 @@
 			<input type="submit" name="stockin" value="Add Stock">
 		</div>
 	</form>
-	<h2 style="color: lightgreen;">Stock Out</h2>
+	<h2 style="color: #779CAB;">Stock Out</h2>
 	<form class="form" method="POST">
 		<div>
 			<label for="productname">Product Name:</label>
@@ -132,7 +132,7 @@
 		</div>
 	</form>
 	<p style="color: red;"><?=$product_inserted_error ?? null ?></p>
-	<p style="color: lightgreen;"><?=$product_inserted ?? null ?></p>
+	<p style="color: #779CAB;"><?=$product_inserted ?? null ?></p>
 	<table>
 		<tr>
 			<th>#NO</th>

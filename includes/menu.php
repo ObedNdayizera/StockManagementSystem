@@ -1,5 +1,5 @@
 <div class="menu">
-<h2>BERWA <span class="design">SHOP</span></h2>
+	<h2>BERWA <span class="design">SHOP</span></h2>
 	<nav>
 		<ul>
 			<li>

@@ -33,7 +33,7 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/menu.php" ?>
 <div class="section">
-	<h2 style="color: lightgreen;">Add user</h2>
+	<h2 style="color: #779CAB;">Add user</h2>
 	<form class="form" method="POST">
 		<div>
 			<label for="username">Username:</label>
@@ -49,7 +49,7 @@
 			<input type="submit" name="submit" value="Add User">
 		</div>
 	</form>
-	<p style="color: lightgreen;"><?=$category_inserted ?? null ?></p>
+	<p style="color: #779CAB;"><?=$category_inserted ?? null ?></p>
 	<table>
 		<tr>
 			<th>#NO</th>
