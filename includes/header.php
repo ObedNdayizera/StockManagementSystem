@@ -20,5 +20,5 @@
 	<div class="container">
 		<div class="header">
 			<h2>Welcome, <?=$user['user_name']; ?></h2>
-			<img src="img/profile.svg" class="img" alt="profile">
+			<a href="profile.php"><img src="img/profile.svg" class="img" alt="profile"></a>
 		</div>
