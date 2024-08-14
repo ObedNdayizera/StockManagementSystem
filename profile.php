@@ -34,9 +34,14 @@
     form div button{
         padding: 8px;
         cursor: pointer;
-        background-color: #779CAB;
-        border: 1px solid #779CAB;
+        background-color: #fff;
+        border: 1.5px solid #888;
         border-radius: 5px;
+    }
+
+    form div button:last-child {
+        background-color: #779CAB;
+        border: 1.5px solid #779CAB;
     }
 
     form div input {
@@ -66,7 +71,12 @@
             <button>Update Account</button>
             <button>Delete Account</button> 
         </div>
-        
+        <div>
+            <img src="" alt="">
+        </div>
     </form>
+    <div>
+
+    </div>
 </div>
 <?php include "includes/footer.php" ?>
