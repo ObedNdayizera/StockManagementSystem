@@ -68,8 +68,8 @@
             <input type="text" value="<?="example@gmail.com"?>">
         </div>
         <div>
-            <button>Update Account</button>
-            <button>Delete Account</button> 
+            <a href="update_user.php?id=<?=$id?>"><button>Update Account</button></a>
+            <a href="delete_user.php?id=<?=$id?>"><button>Delete Account</button></a>
         </div>
         <div>
             <img src="" alt="">
