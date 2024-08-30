@@ -31,7 +31,15 @@
         padding-top: 50px;
     }
 
-    form div button{
+    form div input {
+        padding: 8px;
+        width: 100%;
+        border: 1.5px solid #888;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    form div input[type: 'button'] {
         padding: 8px;
         cursor: pointer;
         background-color: #fff;
@@ -42,14 +50,6 @@
     form div button:last-child {
         background-color: #779CAB;
         border: 1.5px solid #779CAB;
-    }
-
-    form div input {
-        padding: 8px;
-        width: 100%;
-        border: 1.5px solid #888;
-        border-radius: 5px;
-        margin-top: 5px;
     }
 </style>
 <div class="section">
@@ -68,8 +68,10 @@
             <input type="text" value="<?="example@gmail.com"?>">
         </div>
         <div>
-            <a href="update_user.php?id=<?=$id?>"><button>Update Account</button></a>
-            <a href="delete_user.php?id=<?=$id?>"><button>Delete Account</button></a>
+            <!-- <a href="update_user.php?id=<?=$id?>"><button>Update Account</button></a>
+            <a href="delete_user.php?id=<?=$id?>"><button>Delete Account</button></a> -->
+            <input type="button" value="Update Account">
+            <input type="button" value="Delete Account">
         </div>
         <div>
             <img src="" alt="">
